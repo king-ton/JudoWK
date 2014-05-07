@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JudoWK">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="JudoWK-Persistence.jar" deploy-path="/lib" handle="module:/resource/JudoWK-Persistence/JudoWK-Persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JudoWK-Web.war" deploy-path="/" handle="module:/resource/JudoWK-Web/JudoWK-Web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JudoWK-EJB.jar" deploy-path="/" handle="module:/resource/JudoWK-EJB/JudoWK-EJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
